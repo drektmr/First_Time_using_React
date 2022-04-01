@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+ .aside{
+   padding-top: -300px;
+ }
+ .App{
+     margin: 10px;
+     display:grid;
+     grid-gap: 20px;
+ }
+ .product{
+
+     -webkit-box-shadow: 4px 7px 21px -9px rgba(0,0,0,0.39);
+     -moz-box-shadow: 4px 7px 21px -9px rgba(0,0,0,0.39);
+     box-shadow: 4px 7px 21px -9px rgba(0,0,0,0.39);
+ }
+
+ .title{
+     width: 100%;
+     color: white;
+     background-color: #61dafb;
+ }
+table.blueTable {
+    font-family: "Times New Roman", Times, serif;
+    border: 1px solid #FFFFFF;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+    border: 1px solid #FFFFFF;
+    padding: 3px 2px;
+}
+table.blueTable tbody td {
+    font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+    background: #D0E4F5;
+}
+table.blueTable thead {
+    background: #0B6FA4;
+    border-bottom: 5px solid #FFFFFF;
+}
+table.blueTable thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #FFFFFF;
+}
+table.blueTable thead th:first-child {
+    border-left: none;
+}
+
+table.blueTable tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    background: #D0E4F5;
+    border-top: 3px solid #444444;
+}
+table.blueTable tfoot td {
+    font-size: 14px;
+}
